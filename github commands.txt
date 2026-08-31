@@ -1,0 +1,1 @@
+cd -LiteralPath "D:\[18] AI-ML All\inttrvu AI\Group Project - 1\Mobile Price Prediction"; code .
