@@ -298,3 +298,12 @@ Trained ML Model
     ▼
 Predicted Smartphone Price
 ```
+
+# 🚀 Installation & Usage
+
+## 📥 Clone the Repository
+
+```bash
+git clone https://github.com/ROHIT4321/smartphone-price-prediction.git
+cd smartphone-price-prediction
+```
