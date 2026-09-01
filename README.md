@@ -120,20 +120,76 @@ The analysis investigates:
 
 \- Repeated specifications with different prices
 
-\### Example EDA Visualizations
+### 📊 EDA Visualizations
 
-Add your generated plots to an `images/` folder and display them here:
+<table>
+<tr>
 
-```text
+<td width="50%">
 
-images/
+#### 📊 EDA Overview
 
-├── eda\_overview.png
+<img src="images/eda_overview.png" alt="EDA Overview" width="100%">
 
-├── correlation\_heatmap.png
+</td>
 
-├── price\_distribution.png
+<td width="50%">
 
-└── model\_comparison.png
+#### 🔥 Correlation Heatmap
 
-```
+<img src="images/correlation_heatmap.png" alt="Correlation Heatmap" width="100%">
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## 🤖 Model Analysis
+
+### 📈 Model Comparison
+
+<img src="images/model_comparison.png" alt="Model Comparison" width="850">
+
+<table>
+<tr>
+
+<td width="50%">
+
+#### 🌲 Random Forest
+
+<img src="images/random_forest.png" alt="Random Forest Feature Importance" width="100%">
+
+</td>
+
+<td width="50%">
+
+#### 🚀 XGBoost
+
+<img src="images/xgboost.png" alt="XGBoost Feature Importance" width="100%">
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%">
+
+#### 📉 Linear Regression
+
+<img src="images/linear_regression.png" alt="Linear Regression Feature Importance" width="100%">
+
+</td>
+
+<td width="50%">
+
+#### 🏷️ Brand Premiumness
+
+<img src="images/brand_premiumness.png" alt="Brand Premiumness" width="100%">
+
+</td>
+
+</tr>
+</table>
