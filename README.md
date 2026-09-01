@@ -187,7 +187,7 @@ Based on the evaluation results, **XGBoost achieved the highest R² Score of 0.7
 
 ---
 
-# 📊 Feature Importance & Model Analysis
+# 📊 Model Analysis
 
 ## 🌲 Random Forest
 
@@ -215,9 +215,13 @@ Based on the evaluation results, **XGBoost achieved the highest R² Score of 0.7
 
 # 🌐 Streamlit Application
 
-The trained machine learning models are integrated into a **Streamlit application** for interactive smartphone price prediction.
+---
 
-The application allows users to enter:
+# 🌐 Streamlit Application
+
+The trained machine learning model is deployed through an interactive Streamlit application.
+
+Users can enter smartphone specifications including:
 
 - 🖥️ Platform
 - 📱 Brand
@@ -226,7 +230,35 @@ The application allows users to enter:
 - 💽 Storage
 - 🔋 Battery
 
-The application then processes the input using the same preprocessing and feature-engineering pipeline used during model training.
+The application automatically processes the inputs using the same preprocessing and feature-engineering pipeline used during model training and generates an estimated smartphone price.
+
+## 🖥️ Application Preview
+
+<p align="center">
+
+<img src="images/streamlit_app.png" alt="Streamlit Mobile Price Prediction Application" width="100%">
+
+</p>
+
+### Example Prediction
+
+**Input:**
+
+| Feature  | Value      |
+| -------- | ---------- |
+| Platform | Flipkart   |
+| Brand    | Apple      |
+| Rating   | ⭐ 4.8 / 5 |
+| RAM      | 8 GB       |
+| Storage  | 128 GB     |
+| Battery  | 5,500 mAh  |
+
+**Predicted Price: ₹63,829**
+
+**Model:** XGBoost  
+**R² Score:** 0.7706
+
+---
 
 ### Example Input Constraints
 
