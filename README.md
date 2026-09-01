@@ -211,12 +211,6 @@ Based on the evaluation results, **XGBoost achieved the highest R² Score of 0.7
 
 <img src="images/brand_premiumness.png" alt="Brand Premiumness" width="850">
 
----
-
-# 🌐 Streamlit Application
-
----
-
 # 🌐 Streamlit Application
 
 The trained machine learning model is deployed through an interactive Streamlit application.
